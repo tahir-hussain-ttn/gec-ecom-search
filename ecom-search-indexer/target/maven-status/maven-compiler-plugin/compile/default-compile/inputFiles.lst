@@ -1,0 +1,11 @@
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-indexer/src/main/java/com/husain707/reactive/growth/ecom/search/indexer/event/BrandUpdateEvent.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-indexer/src/main/java/com/husain707/reactive/growth/ecom/search/indexer/service/QueryGenerationService.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-indexer/src/main/java/com/husain707/reactive/growth/ecom/search/indexer/consumer/CategoryUpdateConsumer.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-indexer/src/main/java/com/husain707/reactive/growth/ecom/search/indexer/config/ElasticsearchClientConfig.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-indexer/src/main/java/com/husain707/reactive/growth/ecom/search/indexer/EcomSearchIndexerApplication.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-indexer/src/main/java/com/husain707/reactive/growth/ecom/search/indexer/consumer/BrandUpdateConsumer.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-indexer/src/main/java/com/husain707/reactive/growth/ecom/search/indexer/repository/QueryIndexRepository.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-indexer/src/main/java/com/husain707/reactive/growth/ecom/search/indexer/config/KafkaConsumerConfig.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-indexer/src/main/java/com/husain707/reactive/growth/ecom/search/indexer/event/CategoryData.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-indexer/src/main/java/com/husain707/reactive/growth/ecom/search/indexer/event/CategoryUpdateEvent.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-indexer/src/main/java/com/husain707/reactive/growth/ecom/search/indexer/event/BrandData.java

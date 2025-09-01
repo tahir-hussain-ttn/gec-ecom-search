@@ -1,0 +1,8 @@
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-api/src/main/java/com/husain707/reactive/growth/ecom/search/api/config/ElasticsearchClientConfig.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-api/src/main/java/com/husain707/reactive/growth/ecom/search/api/service/impl/ProductSearchServiceImpl.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-api/src/main/java/com/husain707/reactive/growth/ecom/search/api/EcomSearchApiApplication.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-api/src/main/java/com/husain707/reactive/growth/ecom/search/api/controller/ProductSearchController.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-api/src/main/java/com/husain707/reactive/growth/ecom/search/api/repository/QueryIndexRepository.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-api/src/main/java/com/husain707/reactive/growth/ecom/search/api/service/ProductSearchService.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-api/src/main/java/com/husain707/reactive/growth/ecom/search/api/repository/ProductSearchRepository.java
+/home/tahir/code/husain707/reactive/growth/ecom-services/ecom-search/ecom-search-api/src/main/java/com/husain707/reactive/growth/ecom/search/api/dto/QuerySuggestionResponseDto.java
