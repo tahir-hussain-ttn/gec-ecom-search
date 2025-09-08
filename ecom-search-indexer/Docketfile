@@ -1,0 +1,37 @@
+# ===============================
+# Stage 1: Build the application
+# ===============================
+FROM maven:3.9.6-eclipse-temurin-17 AS builder
+
+WORKDIR /app
+
+# Copy root pom and service poms (for dependency resolution)
+COPY pom.xml .
+COPY ecom-search-indexer/pom.xml ecom-search-indexer/
+COPY ecom-search-common/pom.xml ecom-search-common/
+
+# Pre-download dependencies (cached for faster builds)
+RUN mvn -B -ntp dependency:go-offline
+
+# Copy all source code
+COPY . .
+
+# Build ecom-search-common and ecom-search-indexer (skip tests for faster build)
+RUN mvn -B -ntp -pl ecom-search-common -am clean package -DskipTests
+RUN mvn -B -ntp -pl ecom-search-indexer -am clean package -DskipTests
+
+# ===============================
+# Stage 2: Create runtime image
+# ===============================
+FROM eclipse-temurin:17-jre
+
+WORKDIR /app
+
+# Copy JAR from builder stage
+COPY --from=builder /app/ecom-search-indexer/target/*.jar app.jar
+
+# Expose port (change if needed)
+EXPOSE 8080
+
+# Run the application
+ENTRYPOINT ["java", "-jar", "app.jar"]
